@@ -709,7 +709,7 @@ p {
 
 .modal-input-wrapper {
   position: relative;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .icon-form {
@@ -739,7 +739,6 @@ p {
 }
 
 .checkbox-label {
-  display: flex;
   align-items: center;
   gap: 8px;
   font-weight: 400;
