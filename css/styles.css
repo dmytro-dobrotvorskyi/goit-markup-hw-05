@@ -704,11 +704,12 @@ p {
 .modal-input-container {
   display: flex;
   flex-direction: column;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .modal-input-wrapper {
   position: relative;
+  margin-bottom: 8px;
 }
 
 .icon-form {
