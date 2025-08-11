@@ -525,12 +525,6 @@ p {
   color: #fff;
 }
 
-.social-media-footer {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
 .social-item-footer {
   width: 40px;
   height: 40px;
@@ -547,9 +541,7 @@ p {
 }
 
 .form-section {
-  display: flex;
   margin-left: auto;
-  flex-direction: column;
 }
 
 .footer-button {
@@ -703,7 +695,7 @@ p {
 }
 
 .modal-submit-button {
-  margin: 24px auto;
+  margin: 0 auto;
 }
 
 .icon-cross {
@@ -723,9 +715,8 @@ p {
 }
 
 .modal-label {
+  display: block;
   margin-bottom: 4px;
-
-  width: 100%;
 
   font-weight: 400;
   font-size: 12px;
@@ -773,15 +764,7 @@ p {
   color: rgba(46, 47, 66, 0.4);
 }
 
-.modal-form {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-}
-
 .modal-input-container {
-  display: flex;
-  flex-direction: column;
   margin-bottom: 8px;
 }
 
@@ -816,15 +799,11 @@ p {
 }
 
 .checkbox-field {
-  display: flex;
-  align-items: center;
   margin-bottom: 24px;
 }
 
 .checkbox-label {
   align-items: center;
-  margin: 0 auto;
-  gap: 8px;
 
   font-weight: 400;
   font-size: 12px;
@@ -845,6 +824,7 @@ p {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
+  margin-right: 8px;
 
   width: 16px;
   height: 16px;
